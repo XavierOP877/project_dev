@@ -1,0 +1,128 @@
+/*body covers the whole content inside it*/
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* it styles li*/
+li{
+    list-style: none;
+}
+
+/* it changes the color of heading written in nav bar when place the pointer over there */
+a:hover{
+    
+    color: blue;
+}
+
+/* it styles the header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* it styles the heading under the header section */
+header>h1 {
+    font-weight: 300;
+}
+
+/* this basically styles the h1 heading */
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+
+/* it styles the unordered list */
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+/* this styles heading under the list */
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+/* this styles the list */
+
+li {
+    list-style: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+/* This styles the nav bar */
+nav {
+    width: 28rem;
+    position: relative;
+    top: 1rem;
+    right: 2rem;
+    display: block;
+}
+
+/* it is used to set image */
+section{
+    display: block;
+}
+
+/* Styles the image */
+.bigImage{
+    position: relative;
+    width: 95vw;
+    left: 1.5vw;
+}
+
+/* Styles the container class */
+
+.container{
+    display: flex;
+    margin: 2rem;
+}
+
+/* thi styles the div under the conatiner class */
+.container>div{
+    text-align: center;
+}
+
+/* this styles the paragraph under the div which is under the container class */
+.container>div>p{
+    text-align: center;
+    font-size: x-large;
+}
+
+/* this is to style footer section */
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 4rem;
+}
+
+/* this is to style the heading under the footer section */
+footer>h3{
+    font-size: 1.5rem;
+    position: relative;
+    top: 1rem;
+    font-weight: 300;
+}
+
+
+
+
